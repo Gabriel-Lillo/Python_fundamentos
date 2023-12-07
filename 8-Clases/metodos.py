@@ -1,6 +1,12 @@
 '''
 Metodos
 
+* Al igual como existen 2 metodos de atributos (Attrs de clase; attrs de instancia). podemos separar en 
+  dos tipos los metodos
+
+  Metodo de instancia = Le pertenecen al objeto (self: como primer parametro)
+  Metodo de clase = Le pertenece a la clase (cls: como primer parametro)
+
 * A la larga NO es muy buena idea agregar atributos de manera dinamica, porque pueden generar problemas. 
   lo comun es estandarizar los atributos en una clase y crear objetos segun su clase, para que así no existan 
   objetos con mas o menos atributos.
