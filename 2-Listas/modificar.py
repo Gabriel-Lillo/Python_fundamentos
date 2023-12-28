@@ -1,7 +1,7 @@
 lista_cursos = ['Python', 'Django', 'Flask', 'Ruby', 'Java', 'Rust']
 lista_cursos2 = ['C', 'C++', 'Docker']
 
-print(len(lista_cursos)) # len() sirve para conocer  la cantidad de elementos en la lista 
+print(len(lista_cursos)) # len() sirve para conocer la cantidad de elementos en la lista 
 
 
 # .appedn() Sirve para agregar un elemento ala final de la lista
