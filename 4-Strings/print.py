@@ -1,2 +1,2 @@
 print("Cualquier mensaje o variable")
-print("El weta " * 4) # -> El mensaje se repitirá 4 veces
+print("El weta " * 4) # -> El mensaje se repetirá 4 veces
