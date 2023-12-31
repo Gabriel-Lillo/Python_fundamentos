@@ -1,6 +1,6 @@
 Nombre_completo = input("Ingresa tu nombre completo: ")
 
-# Formas para cambiar el tiepo de dato
+# Formas para cambiar el tipo de dato
 
 edad = int(input("Ingresa tu edad: "))
 
