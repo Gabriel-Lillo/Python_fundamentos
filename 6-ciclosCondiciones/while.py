@@ -22,3 +22,15 @@ else: # -> else es opcional, pero se puede usar con while
 print(contador_digitos)
 
 # El ciclo while solo lo utilizaremos condo no sabemos cuantas iteraciones vamos a realizar
+
+""" Forma interesante de utilizar While"""
+# Este scrip hace que mientras no se escriba el comando "salir", imprimirá el comando ingresado.
+
+comando = ""
+
+while comando.lower() != "salir":
+    comando = input("$ ")
+    print(comando)
+
+
+
