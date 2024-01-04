@@ -6,3 +6,5 @@ lista_cursos = ['Python', 'Django', 'Flask', 'Ruby', 'Java']
 
 # Actualizar elementos dentro de la lista
 lista_cursos[4] = 'Rust'
+
+print(lista_cursos)
