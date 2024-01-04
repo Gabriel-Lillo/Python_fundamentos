@@ -14,7 +14,7 @@ print(resultado)
 
 
 #-> como convencion de python el nombre del parametros con * debe ser asignado como "*args"
-def promedio(*args): #-> Tupla
+def promedio_2(*args): #-> Tupla
     return sum(args) / len(args)
 
 resultado = promedio(10, 10, 5, 7, 10)

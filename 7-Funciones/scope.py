@@ -1,11 +1,12 @@
-# Comportamiento de las variable dentro y fuera de las funciones
+""" Scope o alcance de variables"""
 
+# Comportamiento de las variable dentro y fuera de las funciones
 
 animal = 'Leon' # -> Variable global (pueden ser utilizadas en cualquier bloque de codigo; Funciones, condiciones o ciclos)
 print(animal)
 
 def imprimir_animal():
-    global animal #-> Siqueremos modificar una variable global dentro de un bloque de codigo, utilizamos la palabre reservada "global"
+    global animal #-> Siqueremos modificar o utilizar una variable global dentro de un bloque de codigo, utilizamos la palabre reservada "global"
     animal = 'Ballena'
 
     #animal = 'Ballena' # -> Variable local (no existen fuera de este bloque de codigo)
@@ -20,3 +21,8 @@ print(animal) # -> Muestra "animal" que fue declarado globalmente o el valor que
 print(id(animal))
 
 #print(tipo) # -> dará error porque llama a una variable que no existe globalmente
+
+
+""" ES UNA MALA PRACTICA UTILIZAR VARIABLES GLOBALES """
+""" SIEMPRE UTILIZAR VARIABLES DENTRO DEL CONTEXTO EN EL QUE SE VANA A UTILIZAR"""
+
