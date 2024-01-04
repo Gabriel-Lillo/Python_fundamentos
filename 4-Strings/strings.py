@@ -19,7 +19,7 @@ string_lenguajes = ' '. join(lenguajes)
 print(string_lenguajes)
 
 
-# El netodo len() no permite identificar la cantidad de caracteres que contiene un string
+# El netodo len() nos permite identificar la cantidad de caracteres que contiene un string
 
 nombre_curso = "Ultimate Python"
 
