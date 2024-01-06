@@ -1,7 +1,8 @@
-# Las tuplas son como las listas con la unica diferencia es que son inmutables. No se modificarán durante el programa
+# Las tuplas son como las listas con la unica diferencia es que son inmutables. No se pueden modificar durante el programa
 # las tuplas de declaran con parentesis normales "()" y son solo para consultas
 # Las tuplas son mas rapidas que las listas para consultar
-
+# Se pueden crear nuevas tuplas con tuplas ya existente pero no se pueden modificar.
+# Las tuplas pueden hacer exactamente las mismas operaciones y metodos que las listas (excepto los que modifican .append() .pop())
 
 tupla = ('String', 10, 15.4, True, [1, 2, 3], (4, 5, 6))
 
@@ -26,7 +27,7 @@ print(sub_tupla)
 
 
 cursos = ['Python', 'Flask', 'Django']
-print(tupla(cursos))
+#print(tupla(cursos))
 
 niveles = ('Basico', 'Intermedio', 'Avanzado')
 print(list(niveles))
