@@ -1,4 +1,6 @@
 # Como añadir u obtener elementos de una diccionario
+# La llave de un diccionario siempre debe ser un string
+punto = {"x" : True}
 
 elementos = {}
 

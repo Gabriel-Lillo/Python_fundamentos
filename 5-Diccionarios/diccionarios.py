@@ -9,7 +9,7 @@ diccionario = {}
 diccionario = dict()
 
 
-# { llave : el valor el cual queremos asociar}
+# { llave : el valor el cual queremos asociar. siempre se asisgna como string}
 diccionario = { "total": 55}
 diccionario = {"total": 55, "descuento": True, "subtotal": 15}
 
@@ -42,7 +42,7 @@ diccionario = {'Eduardo': 1, 'Fernando':2, 'Uriel': 3, 'Gabriel': 4}
 
 diccionario.keys()
 diccionario.values()
-for key, value in diccionario.items(): #-> .items() para recorres sus valores
+for key, value in diccionario.items(): #-> .items() para recorres sus valores. Nos entrega una tupla
     print(key, value)
 
 
