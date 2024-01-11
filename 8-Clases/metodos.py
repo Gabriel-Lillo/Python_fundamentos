@@ -12,7 +12,7 @@ Metodos
   objetos con mas o menos atributos.
 '''
 
-# Para crear un metodo es necesario crear un funcion dentro de la clase
+# Para crear un metodo es necesario crear una funcion dentro de la clase
 class Usuario:
 
     def inicializar(self, username, password): #-> Para que esta funcion sea un metodo, obligatoriamente debe tener, al menos, un parametro, por convencion, "self"
