@@ -1,5 +1,5 @@
 '''
-El metodo __init__ es mas recmendado utilizar
+El metodo __init__ es mas recomendado utilizar
 '''
 
 

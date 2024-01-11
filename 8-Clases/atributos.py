@@ -20,17 +20,17 @@ print(Usuario.email)
 
 
 #Attrs de instancia
-class Usuario:
+class Usuario2:
     username = 'username por default'
     email = ''
 
-user1 = Usuario() # -> Se crea un objeto
+user1 = Usuario2() # -> Se crea un objeto
 '''
 De manera interna, Python utiliza un metatributo ( __dict__ ) así poder identificar los atributos de una clase para poder compartirlos a un objeto
 __dict__
 1.- Verifica si el attrs existe dentro del objeto
 2.- Verifica si el attrs existe dentro de la clase -> solo lectura
-3.- Lasza un error en el caso con ninguno de los anteriores ocurra
+3.- Lasza un error en el caso que ninguno de los anteriores ocurra
 '''
 print(user1.__dict__) # Diccionario
 print(user1.username)

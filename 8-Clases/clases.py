@@ -1,6 +1,6 @@
 # Para generar clase utilizamos la palabra reservada "Class"
 '''
-Por convencion los nombres de las clases en python se escriben con CamelCase.
+Por convencion los nombres de las clases en python se escriben con UpperCamelCase.
 otra convencion es que el nombre de la clase se encontrará en singular
 '''
 # En python no podemos dejar una clase vacia, para evitar un error podemos utilizar la palabra reservada "pass"
